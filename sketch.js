@@ -24,17 +24,17 @@ function setup() {
 	line3.shapeColor = "red"
 */
    lineB1 = Bodies.rectangle(300, 610, 20, 100,{isStatic:true});
-   World.add(world, lineB1)
+   world.add(World, lineB1)
    line1 = createSprite(lineB1.position.x, lineB1.position.y, 20, 100);
    line1.shapeColor = "red"
 
    lineB2 = Bodies.rectangle(375, 650, 150, 20,{isStatic:true});
-   World.add(world, lineB2)
+   world.add(World, lineB2)
    line2 = createSprite(lineB2.position.x, lineB2.position.y, 150, 20);
    line2.shapeColor = "red"
 
    lineB3 = Bodies.rectangle(450, 610, 20, 100,{isStatic:true});
-   World.add(world, lineB3)
+   world.add(World, lineB3)
    line3 = createSprite(lineB3.position.x, lineB3.position.y, 20, 100);
    line3.shapeColor = "red"
 
